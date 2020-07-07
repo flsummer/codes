@@ -60,7 +60,7 @@ function SuperType(name){
     this.color = ['red', "blue", "green"];
 }
 
-SuperType.property.sayName = function(){
+SuperType.prototype.sayName = function(){
     console.log(this.name);
 }
 
